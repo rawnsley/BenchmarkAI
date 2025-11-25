@@ -9,6 +9,10 @@ A benchmarking framework for AI engines with a focus on:
 
 This project aims to provide rigorous, reproducible benchmarks that test AI systems on real-world problem characteristics often underrepresented in standard evaluations.
 
+## Tests
+
+- [patents/](patents/) - Visualize and model patents from technical descriptions
+
 ## Structure
 
 - `patents/cappiani/` - Source data for the Cappiani patent analysis

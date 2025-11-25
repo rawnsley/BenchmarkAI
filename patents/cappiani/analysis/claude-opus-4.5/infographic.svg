@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2c3e50"/>
+      <stop offset="100%" style="stop-color:#3498db"/>
+    </linearGradient>
+    <linearGradient id="woodGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#deb887"/>
+      <stop offset="100%" style="stop-color:#a0522d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="1000" fill="#f5f5f5"/>
+
+  <!-- Header -->
+  <rect width="800" height="80" fill="url(#headerGrad)"/>
+  <text x="400" y="35" text-anchor="middle" fill="white" font-family="Georgia, serif" font-size="24" font-weight="bold">U.S. PATENT No. 346,530</text>
+  <text x="400" y="60" text-anchor="middle" fill="#ecf0f1" font-family="Georgia, serif" font-size="16">SHEET MUSIC CASE — Luisa Cappiani — August 3, 1886</text>
+
+  <!-- Main Title -->
+  <text x="400" y="115" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="20" font-weight="bold">An Elegant Solution for Organizing Sheet Music</text>
+
+  <!-- Problem Section -->
+  <rect x="30" y="140" width="350" height="100" rx="10" fill="#e74c3c" opacity="0.1" stroke="#e74c3c" stroke-width="2"/>
+  <text x="45" y="165" fill="#c0392b" font-family="Arial, sans-serif" font-size="14" font-weight="bold">THE PROBLEM</text>
+  <text x="45" y="190" fill="#2c3e50" font-family="Arial, sans-serif" font-size="12">• Sheet music gets torn, soiled, and damaged</text>
+  <text x="45" y="210" fill="#2c3e50" font-family="Arial, sans-serif" font-size="12">• Finding specific pieces is time-consuming</text>
+  <text x="45" y="230" fill="#2c3e50" font-family="Arial, sans-serif" font-size="12">• No elegant storage for the parlor</text>
+
+  <!-- Solution Section -->
+  <rect x="420" y="140" width="350" height="100" rx="10" fill="#27ae60" opacity="0.1" stroke="#27ae60" stroke-width="2"/>
+  <text x="435" y="165" fill="#1e8449" font-family="Arial, sans-serif" font-size="14" font-weight="bold">THE SOLUTION</text>
+  <text x="435" y="190" fill="#2c3e50" font-family="Arial, sans-serif" font-size="12">• Protective case with indexed organization</text>
+  <text x="435" y="210" fill="#2c3e50" font-family="Arial, sans-serif" font-size="12">• Dual-lid design for easy access</text>
+  <text x="435" y="230" fill="#2c3e50" font-family="Arial, sans-serif" font-size="12">• Doubles as attractive music stand</text>
+
+  <!-- Main Diagram - Case Open -->
+  <rect x="150" y="260" width="500" height="280" rx="5" fill="white" stroke="#bdc3c7" stroke-width="1"/>
+  <text x="400" y="285" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="14" font-weight="bold">CASE STRUCTURE (Open Position)</text>
+
+  <!-- Case Body A -->
+  <path d="M 200 380 L 200 500 L 600 500 L 600 380 L 550 340 L 250 340 Z" fill="url(#woodGrad)" stroke="#8b4513" stroke-width="2"/>
+  <text x="400" y="480" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">A - Main Case Body</text>
+  <text x="400" y="500" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">(Pasteboard covered with alligator-skin or plush)</text>
+
+  <!-- Inner Lid F -->
+  <path d="M 250 340 L 220 300 L 320 260 L 350 300 Z" fill="#c9a959" stroke="#8b7355" stroke-width="2"/>
+  <text x="285" y="305" text-anchor="middle" fill="#4a3728" font-family="Arial, sans-serif" font-size="10" font-weight="bold">F</text>
+
+  <!-- Index Tablet -->
+  <rect x="360" y="265" width="180" height="70" fill="#f5deb3" stroke="#8b7355" stroke-width="1"/>
+  <line x1="380" y1="265" x2="380" y2="335" stroke="#8b7355" stroke-width="0.5"/>
+  <line x1="400" y1="265" x2="400" y2="335" stroke="#8b7355" stroke-width="0.5"/>
+  <line x1="420" y1="265" x2="420" y2="335" stroke="#8b7355" stroke-width="0.5"/>
+  <line x1="440" y1="265" x2="440" y2="335" stroke="#8b7355" stroke-width="0.5"/>
+  <line x1="460" y1="265" x2="460" y2="335" stroke="#8b7355" stroke-width="0.5"/>
+  <line x1="480" y1="265" x2="480" y2="335" stroke="#8b7355" stroke-width="0.5"/>
+  <line x1="500" y1="265" x2="500" y2="335" stroke="#8b7355" stroke-width="0.5"/>
+  <line x1="520" y1="265" x2="520" y2="335" stroke="#8b7355" stroke-width="0.5"/>
+  <text x="450" y="355" text-anchor="middle" fill="#4a3728" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Index Tablet (F inner surface)</text>
+
+  <!-- Outer Cover H -->
+  <path d="M 550 340 L 580 300 L 620 320 L 600 380 Z" fill="#8b6914" stroke="#5d4e37" stroke-width="2"/>
+  <text x="590" y="350" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">H</text>
+
+  <!-- Labels -->
+  <line x1="170" y1="440" x2="200" y2="440" stroke="#e74c3c" stroke-width="2"/>
+  <text x="165" y="445" text-anchor="end" fill="#e74c3c" font-family="Arial, sans-serif" font-size="10">B - Bottom</text>
+
+  <line x1="605" y1="360" x2="640" y2="360" stroke="#3498db" stroke-width="2"/>
+  <text x="645" y="365" fill="#3498db" font-family="Arial, sans-serif" font-size="10">H - Outer Cover</text>
+
+  <line x1="220" y1="280" x2="190" y2="260" stroke="#27ae60" stroke-width="2"/>
+  <text x="185" y="255" text-anchor="end" fill="#27ae60" font-family="Arial, sans-serif" font-size="10">F - Inner Lid</text>
+
+  <!-- Key Components Section -->
+  <text x="400" y="570" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="16" font-weight="bold">KEY COMPONENTS</text>
+
+  <!-- Component boxes -->
+  <rect x="30" y="590" width="170" height="120" rx="8" fill="#3498db" opacity="0.1" stroke="#3498db" stroke-width="2"/>
+  <text x="115" y="615" text-anchor="middle" fill="#2980b9" font-family="Arial, sans-serif" font-size="12" font-weight="bold">CASE BODY (A)</text>
+  <text x="115" y="635" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="10">Rectangular box</text>
+  <text x="115" y="650" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="10">Decorative covering</text>
+  <text x="115" y="665" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="10">Flanges D project</text>
+  <text x="115" y="680" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="10">beyond bottom B</text>
+
+  <rect x="220" y="590" width="170" height="120" rx="8" fill="#e74c3c" opacity="0.1" stroke="#e74c3c" stroke-width="2"/>
+  <text x="305" y="615" text-anchor="middle" fill="#c0392b" font-family="Arial, sans-serif" font-size="12" font-weight="bold">INNER LID (F)</text>
+  <text x="305" y="635" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="10">Hinged at edge E</text>
+  <text x="305" y="650" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="10">Index tablet inside</text>
+  <text x="305" y="665" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="10">Ruled columns for</text>
+  <text x="305" y="680" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="10">music titles</text>
+
+  <rect x="410" y="590" width="170" height="120" rx="8" fill="#27ae60" opacity="0.1" stroke="#27ae60" stroke-width="2"/>
+  <text x="495" y="615" text-anchor="middle" fill="#1e8449" font-family="Arial, sans-serif" font-size="12" font-weight="bold">OUTER COVER (H)</text>
+  <text x="495" y="635" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="10">Hinged to case top</text>
+  <text x="495" y="650" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="10">Side flanges K</text>
+  <text x="495" y="665" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="10">Handle M for</text>
+  <text x="495" y="680" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="10">carrying</text>
+
+  <rect x="600" y="590" width="170" height="120" rx="8" fill="#9b59b6" opacity="0.1" stroke="#9b59b6" stroke-width="2"/>
+  <text x="685" y="615" text-anchor="middle" fill="#8e44ad" font-family="Arial, sans-serif" font-size="12" font-weight="bold">RIBBON/TAPE (L)</text>
+  <text x="685" y="635" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="10">Attached at rear</text>
+  <text x="685" y="650" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="10">Pendant/tassel end</text>
+  <text x="685" y="665" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="10">Slides music sheets</text>
+  <text x="685" y="680" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="10">onto lid F</text>
+
+  <!-- How It Works Section -->
+  <text x="400" y="740" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="16" font-weight="bold">HOW IT WORKS</text>
+
+  <!-- Step circles -->
+  <circle cx="100" cy="820" r="40" fill="#3498db"/>
+  <text x="100" y="810" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">1</text>
+  <text x="100" y="830" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">OPEN</text>
+  <text x="100" y="880" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="10">Open covers F &amp; H</text>
+  <text x="100" y="895" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="10">to access music</text>
+
+  <polygon points="160,820 180,810 180,830" fill="#bdc3c7"/>
+
+  <circle cx="260" cy="820" r="40" fill="#e74c3c"/>
+  <text x="260" y="810" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">2</text>
+  <text x="260" y="830" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">FIND</text>
+  <text x="260" y="880" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="10">Check index on</text>
+  <text x="260" y="895" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="10">tablet F for title</text>
+
+  <polygon points="320,820 340,810 340,830" fill="#bdc3c7"/>
+
+  <circle cx="420" cy="820" r="40" fill="#27ae60"/>
+  <text x="420" y="810" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">3</text>
+  <text x="420" y="830" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">PULL</text>
+  <text x="420" y="880" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="10">Pull ribbon L to</text>
+  <text x="420" y="895" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="10">slide sheets onto F</text>
+
+  <polygon points="480,820 500,810 500,830" fill="#bdc3c7"/>
+
+  <circle cx="580" cy="820" r="40" fill="#9b59b6"/>
+  <text x="580" y="810" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">4</text>
+  <text x="580" y="830" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">PLAY</text>
+  <text x="580" y="880" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="10">Use H as stand</text>
+  <text x="580" y="895" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="10">to hold case</text>
+
+  <polygon points="640,820 660,810 660,830" fill="#bdc3c7"/>
+
+  <circle cx="740" cy="820" r="40" fill="#f39c12"/>
+  <text x="740" y="810" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">5</text>
+  <text x="740" y="830" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">RETURN</text>
+  <text x="740" y="880" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="10">Return sheet to</text>
+  <text x="740" y="895" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="10">numbered pile</text>
+
+  <!-- Benefits Section -->
+  <rect x="30" y="920" width="740" height="60" rx="10" fill="#2c3e50"/>
+  <text x="400" y="945" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">BENEFITS: Organized • Protected • Attractive • Functional Music Stand • Easy Access</text>
+  <text x="400" y="965" text-anchor="middle" fill="#bdc3c7" font-family="Arial, sans-serif" font-size="11">Cushions O at corners prevent wear • Wear-plates N protect from abrasion • Elastic at bottom prevents scratching</text>
+</svg>

@@ -8,7 +8,7 @@ For each patent, the AI must produce:
 
 1. **Infographic** - A clear visual explanation of the patent's key concepts and innovations
 2. **Engineering drawings** - Technical drawings where appropriate (e.g., orthographic views, cross-sections, exploded views)
-3. **3D model** - A glTF format model of any physical parts described in the patent
+3. **3D model** - A glTF format model in GLB format of any physical parts described in the patent
 
 ## Evaluation
 
