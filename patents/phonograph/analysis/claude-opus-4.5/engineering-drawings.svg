@@ -1,0 +1,260 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1100">
+  <defs>
+    <pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
+      <path d="M 10 0 L 0 0 0 10" fill="none" stroke="#e0e0e0" stroke-width="0.5"/>
+    </pattern>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="1100" fill="#fff"/>
+  <rect width="800" height="1100" fill="url(#grid)"/>
+
+  <!-- Title Block -->
+  <rect x="500" y="1020" width="290" height="70" fill="none" stroke="#333" stroke-width="2"/>
+  <line x1="500" y1="1045" x2="790" y2="1045" stroke="#333" stroke-width="1"/>
+  <line x1="500" y1="1070" x2="790" y2="1070" stroke="#333" stroke-width="1"/>
+  <line x1="620" y1="1020" x2="620" y2="1090" stroke="#333" stroke-width="1"/>
+  <text x="560" y="1038" text-anchor="middle" font-family="Arial" font-size="10">PATENT NO.</text>
+  <text x="705" y="1038" text-anchor="middle" font-family="Arial" font-size="10">US 200,521</text>
+  <text x="560" y="1062" text-anchor="middle" font-family="Arial" font-size="10">DATE</text>
+  <text x="705" y="1062" text-anchor="middle" font-family="Arial" font-size="10">Feb 19, 1878</text>
+  <text x="645" y="1085" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">PHONOGRAPH - T.A. EDISON</text>
+
+  <!-- Border -->
+  <rect x="10" y="10" width="780" height="1080" fill="none" stroke="#333" stroke-width="2"/>
+
+  <!-- Main Title -->
+  <text x="400" y="45" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold">PHONOGRAPH OR SPEAKING MACHINE</text>
+  <text x="400" y="65" text-anchor="middle" font-family="Arial" font-size="12">Engineering Drawings - Multiple Views</text>
+
+  <!-- FRONT ELEVATION -->
+  <text x="200" y="100" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">FRONT ELEVATION</text>
+
+  <!-- Base plate -->
+  <rect x="50" y="280" width="300" height="15" fill="none" stroke="#333" stroke-width="2"/>
+
+  <!-- Left support P -->
+  <rect x="70" y="180" width="20" height="100" fill="none" stroke="#333" stroke-width="2"/>
+  <text x="60" y="230" font-family="Arial" font-size="10">P</text>
+
+  <!-- Right support P' -->
+  <rect x="310" y="180" width="20" height="100" fill="none" stroke="#333" stroke-width="2"/>
+  <text x="340" y="230" font-family="Arial" font-size="10">P'</text>
+
+  <!-- Shaft X with thread indication -->
+  <line x1="80" y1="200" x2="320" y2="200" stroke="#333" stroke-width="3"/>
+  <!-- Thread lines -->
+  <g stroke="#333" stroke-width="0.5">
+    <line x1="100" y1="197" x2="105" y2="203"/>
+    <line x1="110" y1="197" x2="115" y2="203"/>
+    <line x1="120" y1="197" x2="125" y2="203"/>
+    <line x1="130" y1="197" x2="135" y2="203"/>
+    <line x1="140" y1="197" x2="145" y2="203"/>
+    <line x1="270" y1="197" x2="275" y2="203"/>
+    <line x1="280" y1="197" x2="285" y2="203"/>
+    <line x1="290" y1="197" x2="295" y2="203"/>
+    <line x1="300" y1="197" x2="305" y2="203"/>
+  </g>
+  <text x="200" y="215" text-anchor="middle" font-family="Arial" font-size="10">X - Threaded Shaft</text>
+
+  <!-- Cylinder A -->
+  <rect x="150" y="160" width="100" height="80" fill="none" stroke="#333" stroke-width="2"/>
+  <ellipse cx="150" cy="200" rx="10" ry="40" fill="none" stroke="#333" stroke-width="2"/>
+  <ellipse cx="250" cy="200" rx="10" ry="40" fill="none" stroke="#333" stroke-width="2"/>
+  <!-- Helical grooves -->
+  <line x1="150" y1="170" x2="250" y2="170" stroke="#333" stroke-width="0.5"/>
+  <line x1="150" y1="180" x2="250" y2="180" stroke="#333" stroke-width="0.5"/>
+  <line x1="150" y1="190" x2="250" y2="190" stroke="#333" stroke-width="0.5"/>
+  <line x1="150" y1="200" x2="250" y2="200" stroke="#333" stroke-width="0.5"/>
+  <line x1="150" y1="210" x2="250" y2="210" stroke="#333" stroke-width="0.5"/>
+  <line x1="150" y1="220" x2="250" y2="220" stroke="#333" stroke-width="0.5"/>
+  <line x1="150" y1="230" x2="250" y2="230" stroke="#333" stroke-width="0.5"/>
+  <text x="200" y="260" text-anchor="middle" font-family="Arial" font-size="10">A - Cylinder</text>
+
+  <!-- Flywheel W -->
+  <circle cx="340" cy="200" r="30" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="340" cy="200" r="5" fill="none" stroke="#333" stroke-width="1"/>
+  <text x="340" y="245" text-anchor="middle" font-family="Arial" font-size="10">W</text>
+
+  <!-- Dimension lines -->
+  <line x1="150" y1="270" x2="250" y2="270" stroke="#333" stroke-width="0.5" marker-end="url(#arrowhead)" marker-start="url(#arrowhead)"/>
+  <text x="200" y="285" text-anchor="middle" font-family="Arial" font-size="9">4 inches</text>
+
+  <!-- SIDE ELEVATION -->
+  <text x="600" y="100" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">SIDE ELEVATION</text>
+
+  <!-- Base -->
+  <rect x="470" y="280" width="260" height="15" fill="none" stroke="#333" stroke-width="2"/>
+
+  <!-- Support column -->
+  <rect x="580" y="180" width="20" height="100" fill="none" stroke="#333" stroke-width="2"/>
+
+  <!-- Cylinder end view -->
+  <circle cx="590" cy="200" r="40" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="590" cy="200" r="5" fill="none" stroke="#333" stroke-width="1"/>
+  <!-- Groove lines radial -->
+  <circle cx="590" cy="200" r="35" fill="none" stroke="#333" stroke-width="0.5"/>
+  <circle cx="590" cy="200" r="30" fill="none" stroke="#333" stroke-width="0.5"/>
+  <circle cx="590" cy="200" r="25" fill="none" stroke="#333" stroke-width="0.5"/>
+  <circle cx="590" cy="200" r="20" fill="none" stroke="#333" stroke-width="0.5"/>
+  <circle cx="590" cy="200" r="15" fill="none" stroke="#333" stroke-width="0.5"/>
+  <circle cx="590" cy="200" r="10" fill="none" stroke="#333" stroke-width="0.5"/>
+  <text x="590" y="260" text-anchor="middle" font-family="Arial" font-size="10">A - End View</text>
+
+  <!-- Clockwork M -->
+  <rect x="680" y="220" width="40" height="60" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="700" cy="250" r="12" fill="none" stroke="#333" stroke-width="1"/>
+  <text x="700" y="255" text-anchor="middle" font-family="Arial" font-size="8">M</text>
+
+  <!-- PLAN VIEW -->
+  <text x="200" y="330" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">PLAN VIEW (TOP)</text>
+
+  <!-- Base outline -->
+  <rect x="50" y="350" width="300" height="150" fill="none" stroke="#333" stroke-width="2"/>
+
+  <!-- Cylinder top view -->
+  <rect x="100" y="400" width="200" height="50" fill="none" stroke="#333" stroke-width="2"/>
+  <text x="200" y="430" text-anchor="middle" font-family="Arial" font-size="10">A</text>
+
+  <!-- Shaft -->
+  <line x1="50" y1="425" x2="350" y2="425" stroke="#333" stroke-width="2"/>
+
+  <!-- Speaking tube B position -->
+  <ellipse cx="70" cy="380" rx="15" ry="10" fill="none" stroke="#333" stroke-width="1.5"/>
+  <text x="70" y="365" text-anchor="middle" font-family="Arial" font-size="9">B</text>
+
+  <!-- Receiving tube C position -->
+  <ellipse cx="330" cy="380" rx="15" ry="10" fill="none" stroke="#333" stroke-width="1.5"/>
+  <text x="330" y="365" text-anchor="middle" font-family="Arial" font-size="9">C</text>
+
+  <!-- Supports -->
+  <rect x="60" y="460" width="30" height="30" fill="none" stroke="#333" stroke-width="1"/>
+  <text x="75" y="480" text-anchor="middle" font-family="Arial" font-size="8">P</text>
+  <rect x="310" y="460" width="30" height="30" fill="none" stroke="#333" stroke-width="1"/>
+  <text x="325" y="480" text-anchor="middle" font-family="Arial" font-size="8">P'</text>
+
+  <!-- SPEAKING TUBE DETAIL -->
+  <text x="600" y="330" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">SPEAKING TUBE DETAIL</text>
+  <text x="600" y="345" text-anchor="middle" font-family="Arial" font-size="10">(Section B-B)</text>
+
+  <!-- Tube B cross section -->
+  <path d="M 500 400 L 550 430 L 550 470 L 500 500 Z" fill="none" stroke="#333" stroke-width="2"/>
+  <ellipse cx="500" cy="450" rx="15" ry="50" fill="none" stroke="#333" stroke-width="2"/>
+
+  <!-- Diaphragm G -->
+  <line x1="550" y1="430" x2="550" y2="470" stroke="#333" stroke-width="3"/>
+  <text x="565" y="455" font-family="Arial" font-size="10">G</text>
+
+  <!-- Indenting point -->
+  <circle cx="560" cy="450" r="3" fill="#333"/>
+  <line x1="560" y1="450" x2="620" y2="450" stroke="#333" stroke-width="1"/>
+  <text x="640" y="455" font-family="Arial" font-size="9">Indenting</text>
+  <text x="640" y="467" font-family="Arial" font-size="9">point</text>
+
+  <!-- Spring holder -->
+  <rect x="615" y="440" width="20" height="20" fill="none" stroke="#333" stroke-width="1"/>
+
+  <!-- Labels -->
+  <text x="500" y="520" text-anchor="middle" font-family="Arial" font-size="10">B - Mouthpiece</text>
+
+  <!-- RECEIVING TUBE DETAIL -->
+  <text x="600" y="550" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">RECEIVING TUBE DETAIL</text>
+  <text x="600" y="565" text-anchor="middle" font-family="Arial" font-size="10">(Section C-C)</text>
+
+  <!-- Tube C cross section -->
+  <path d="M 700 620 L 650 650 L 650 690 L 700 720 Z" fill="none" stroke="#333" stroke-width="2"/>
+  <ellipse cx="700" cy="670" rx="15" ry="50" fill="none" stroke="#333" stroke-width="2"/>
+
+  <!-- Diaphragm F -->
+  <line x1="650" y1="650" x2="650" y2="690" stroke="#333" stroke-width="3"/>
+  <text x="635" y="675" font-family="Arial" font-size="10">F</text>
+
+  <!-- Spring D -->
+  <path d="M 640 670 L 620 670 L 615 665 L 610 675 L 605 665 L 600 675 L 595 670 L 580 670" fill="none" stroke="#333" stroke-width="1.5"/>
+  <text x="610" y="655" font-family="Arial" font-size="9">D</text>
+
+  <!-- Cylinder contact point -->
+  <rect x="560" y="660" width="20" height="20" fill="none" stroke="#333" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="530" y="675" font-family="Arial" font-size="8">To</text>
+  <text x="530" y="685" font-family="Arial" font-size="8">foil</text>
+
+  <text x="700" y="740" text-anchor="middle" font-family="Arial" font-size="10">C - Receiver</text>
+
+  <!-- CYLINDER DETAIL -->
+  <text x="200" y="540" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">CYLINDER DETAIL</text>
+  <text x="200" y="555" text-anchor="middle" font-family="Arial" font-size="10">(Longitudinal Section)</text>
+
+  <!-- Cylinder section -->
+  <rect x="80" y="580" width="240" height="80" fill="none" stroke="#333" stroke-width="2"/>
+
+  <!-- Internal cavity -->
+  <rect x="90" y="590" width="220" height="60" fill="none" stroke="#333" stroke-width="1" stroke-dasharray="5,3"/>
+
+  <!-- Helical grooves detail -->
+  <g stroke="#333" stroke-width="0.5">
+    <line x1="80" y1="595" x2="320" y2="595"/>
+    <line x1="80" y1="605" x2="320" y2="605"/>
+    <line x1="80" y1="615" x2="320" y2="615"/>
+    <line x1="80" y1="625" x2="320" y2="625"/>
+    <line x1="80" y1="635" x2="320" y2="635"/>
+    <line x1="80" y1="645" x2="320" y2="645"/>
+    <line x1="80" y1="655" x2="320" y2="655"/>
+  </g>
+
+  <!-- Foil layer -->
+  <rect x="78" y="578" width="244" height="84" fill="none" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
+  <text x="340" y="620" font-family="Arial" font-size="9">Metallic</text>
+  <text x="340" y="632" font-family="Arial" font-size="9">foil</text>
+
+  <!-- Shaft through center -->
+  <line x1="60" y1="620" x2="340" y2="620" stroke="#333" stroke-width="4"/>
+  <text x="200" y="680" text-anchor="middle" font-family="Arial" font-size="10">10 grooves per inch spacing</text>
+
+  <!-- Dimension -->
+  <line x1="80" y1="700" x2="320" y2="700" stroke="#333" stroke-width="0.5" marker-end="url(#arrowhead)" marker-start="url(#arrowhead)"/>
+  <text x="200" y="715" text-anchor="middle" font-family="Arial" font-size="9">4" length</text>
+
+  <!-- FOIL INDENTATION DETAIL -->
+  <text x="200" y="750" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">FOIL INDENTATION DETAIL</text>
+  <text x="200" y="765" text-anchor="middle" font-family="Arial" font-size="10">(Magnified cross-section)</text>
+
+  <!-- Foil strip -->
+  <rect x="80" y="790" width="240" height="8" fill="#e0e0e0" stroke="#333" stroke-width="1"/>
+
+  <!-- Indentations representing sound waves -->
+  <path d="M 90 794
+           L 100 796 L 105 790 L 110 797 L 115 791 L 120 795
+           L 130 793 L 135 797 L 140 789 L 145 798 L 150 790
+           L 160 794 L 165 791 L 170 796 L 175 792 L 180 795
+           L 190 793 L 195 798 L 200 788 L 205 798 L 210 790
+           L 220 794 L 225 792 L 230 796 L 235 791 L 240 795
+           L 250 793 L 255 797 L 260 790 L 265 796 L 270 792
+           L 280 794 L 285 791 L 290 795 L 295 793 L 300 794"
+        fill="none" stroke="#333" stroke-width="1"/>
+
+  <text x="200" y="820" text-anchor="middle" font-family="Arial" font-size="9">"Each vibration separate and distinct"</text>
+
+  <!-- Indenting stylus -->
+  <path d="M 200 780 L 203 790 L 197 790 Z" fill="#333"/>
+  <line x1="200" y1="760" x2="200" y2="780" stroke="#333" stroke-width="2"/>
+  <text x="220" y="775" font-family="Arial" font-size="9">Stylus</text>
+
+  <!-- NOTES -->
+  <rect x="420" y="780" width="360" height="220" fill="none" stroke="#333" stroke-width="1"/>
+  <text x="600" y="800" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">NOTES</text>
+  <text x="435" y="825" font-family="Arial" font-size="10">1. Cylinder A covered with metallic foil (tin)</text>
+  <text x="435" y="845" font-family="Arial" font-size="10">2. Helical groove pitch: 10 per inch</text>
+  <text x="435" y="865" font-family="Arial" font-size="10">3. Shaft X threaded to match groove pitch</text>
+  <text x="435" y="885" font-family="Arial" font-size="10">4. Diaphragm G: recording (with stylus)</text>
+  <text x="435" y="905" font-family="Arial" font-size="10">5. Diaphragm F: playback (with spring D)</text>
+  <text x="435" y="925" font-family="Arial" font-size="10">6. Clockwork M provides uniform rotation</text>
+  <text x="435" y="945" font-family="Arial" font-size="10">7. Foil removable for preservation</text>
+  <text x="435" y="965" font-family="Arial" font-size="10">8. "Voice reproduced exactly and clearly"</text>
+  <text x="435" y="985" font-family="Arial" font-size="10">9. Can make plaster molds for reproduction</text>
+
+  <!-- Scale -->
+  <text x="100" y="1000" font-family="Arial" font-size="10">SCALE: Not to scale (conceptual)</text>
+</svg>

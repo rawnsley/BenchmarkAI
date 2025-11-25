@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8B4513"/>
+      <stop offset="100%" style="stop-color:#D2691E"/>
+    </linearGradient>
+    <linearGradient id="brassGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4AF37"/>
+      <stop offset="100%" style="stop-color:#B8860B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="1000" fill="#f5f0e6"/>
+
+  <!-- Header -->
+  <rect width="800" height="80" fill="url(#headerGrad)"/>
+  <text x="400" y="35" text-anchor="middle" fill="white" font-family="Georgia, serif" font-size="24" font-weight="bold">U.S. PATENT No. 200,521</text>
+  <text x="400" y="60" text-anchor="middle" fill="#f5deb3" font-family="Georgia, serif" font-size="16">PHONOGRAPH OR SPEAKING MACHINE — Thomas A. Edison — February 19, 1878</text>
+
+  <!-- Title -->
+  <text x="400" y="115" text-anchor="middle" fill="#8B4513" font-family="Arial, sans-serif" font-size="20" font-weight="bold">The First Device to Record and Reproduce Sound</text>
+
+  <!-- Innovation Box -->
+  <rect x="30" y="135" width="740" height="80" rx="10" fill="#D2691E" opacity="0.15" stroke="#D2691E" stroke-width="2"/>
+  <text x="400" y="165" text-anchor="middle" fill="#8B4513" font-family="Arial, sans-serif" font-size="14" font-weight="bold">THE BREAKTHROUGH</text>
+  <text x="400" y="190" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="12">"Each vibration is separate and distinct" — Edison discovered that sound waves create</text>
+  <text x="400" y="205" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="12">individual indentations that can be recorded and played back</text>
+
+  <!-- Main Diagram -->
+  <rect x="50" y="230" width="700" height="300" rx="5" fill="white" stroke="#bdc3c7" stroke-width="1"/>
+  <text x="400" y="255" text-anchor="middle" fill="#8B4513" font-family="Arial, sans-serif" font-size="14" font-weight="bold">PHONOGRAPH MECHANISM</text>
+
+  <!-- Cylinder A -->
+  <ellipse cx="350" cy="380" rx="80" ry="30" fill="url(#brassGrad)" stroke="#8B4513" stroke-width="2"/>
+  <rect x="270" y="320" width="160" height="60" fill="url(#brassGrad)" stroke="#8B4513" stroke-width="2"/>
+  <ellipse cx="350" cy="320" rx="80" ry="30" fill="#D4AF37" stroke="#8B4513" stroke-width="2"/>
+  <!-- Helical grooves -->
+  <line x1="275" y1="335" x2="425" y2="335" stroke="#8B4513" stroke-width="0.5"/>
+  <line x1="275" y1="345" x2="425" y2="345" stroke="#8B4513" stroke-width="0.5"/>
+  <line x1="275" y1="355" x2="425" y2="355" stroke="#8B4513" stroke-width="0.5"/>
+  <line x1="275" y1="365" x2="425" y2="365" stroke="#8B4513" stroke-width="0.5"/>
+  <text x="350" y="410" text-anchor="middle" fill="#8B4513" font-family="Arial, sans-serif" font-size="11" font-weight="bold">A - Cylinder with helical grooves</text>
+  <text x="350" y="425" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="9">(10 grooves per inch, covered with metallic foil)</text>
+
+  <!-- Shaft X -->
+  <rect x="430" y="340" width="120" height="10" fill="#888" stroke="#333" stroke-width="1"/>
+  <text x="490" y="365" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="10">X - Threaded shaft</text>
+
+  <!-- Speaking Tube B -->
+  <path d="M 120 300 L 200 340 L 200 370 L 120 410 Z" fill="#cd853f" stroke="#8B4513" stroke-width="2"/>
+  <ellipse cx="120" cy="355" rx="15" ry="55" fill="#deb887" stroke="#8B4513" stroke-width="2"/>
+  <text x="120" y="280" text-anchor="middle" fill="#8B4513" font-family="Arial, sans-serif" font-size="11" font-weight="bold">B - Speaking Tube</text>
+  <text x="120" y="450" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="9">(mouth-piece)</text>
+
+  <!-- Diaphragm G -->
+  <line x1="200" y1="340" x2="200" y2="370" stroke="#333" stroke-width="3"/>
+  <circle cx="210" cy="355" r="5" fill="#333"/>
+  <line x1="210" y1="355" x2="270" y2="355" stroke="#333" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="235" y="340" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="9">G - Diaphragm</text>
+  <text x="235" y="390" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="8">with indenting point</text>
+
+  <!-- Receiving Tube C -->
+  <path d="M 580 300 L 500 340 L 500 370 L 580 410 Z" fill="#cd853f" stroke="#8B4513" stroke-width="2"/>
+  <ellipse cx="580" cy="355" rx="15" ry="55" fill="#deb887" stroke="#8B4513" stroke-width="2"/>
+  <text x="580" y="280" text-anchor="middle" fill="#8B4513" font-family="Arial, sans-serif" font-size="11" font-weight="bold">C - Receiving Tube</text>
+  <text x="580" y="450" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="9">(reproduces sound)</text>
+
+  <!-- Spring D -->
+  <path d="M 500 355 L 480 355 L 475 350 L 470 360 L 465 350 L 460 360 L 455 355 L 430 355" fill="none" stroke="#333" stroke-width="1.5"/>
+  <text x="465" y="340" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="9">D - Spring</text>
+
+  <!-- Clockwork M -->
+  <rect x="620" y="460" width="80" height="50" rx="5" fill="#666" stroke="#333" stroke-width="2"/>
+  <circle cx="660" cy="485" r="15" fill="#888" stroke="#333" stroke-width="1"/>
+  <text x="660" y="490" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="8">M</text>
+  <text x="660" y="525" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="10">Clockwork drive</text>
+
+  <!-- How It Works Section -->
+  <text x="400" y="560" text-anchor="middle" fill="#8B4513" font-family="Arial, sans-serif" font-size="16" font-weight="bold">HOW IT WORKS</text>
+
+  <!-- Recording Process -->
+  <rect x="50" y="580" width="340" height="150" rx="8" fill="#27ae60" opacity="0.1" stroke="#27ae60" stroke-width="2"/>
+  <text x="220" y="605" text-anchor="middle" fill="#1e8449" font-family="Arial, sans-serif" font-size="13" font-weight="bold">RECORDING</text>
+  <text x="70" y="630" fill="#333" font-family="Arial, sans-serif" font-size="11">1. Speak into tube B</text>
+  <text x="70" y="650" fill="#333" font-family="Arial, sans-serif" font-size="11">2. Sound vibrates diaphragm G</text>
+  <text x="70" y="670" fill="#333" font-family="Arial, sans-serif" font-size="11">3. Indenting point makes marks in foil</text>
+  <text x="70" y="690" fill="#333" font-family="Arial, sans-serif" font-size="11">4. Cylinder A rotates via clockwork M</text>
+  <text x="70" y="710" fill="#333" font-family="Arial, sans-serif" font-size="11">5. Threaded shaft X advances cylinder</text>
+
+  <!-- Playback Process -->
+  <rect x="410" y="580" width="340" height="150" rx="8" fill="#3498db" opacity="0.1" stroke="#3498db" stroke-width="2"/>
+  <text x="580" y="605" text-anchor="middle" fill="#2980b9" font-family="Arial, sans-serif" font-size="13" font-weight="bold">PLAYBACK</text>
+  <text x="430" y="630" fill="#333" font-family="Arial, sans-serif" font-size="11">1. Return cylinder to start position</text>
+  <text x="430" y="650" fill="#333" font-family="Arial, sans-serif" font-size="11">2. Spring D follows indentations</text>
+  <text x="430" y="670" fill="#333" font-family="Arial, sans-serif" font-size="11">3. Vibrations transfer to diaphragm F</text>
+  <text x="430" y="690" fill="#333" font-family="Arial, sans-serif" font-size="11">4. Sound reproduced through tube C</text>
+  <text x="430" y="710" fill="#333" font-family="Arial, sans-serif" font-size="11">5. "Voice reproduced exactly and clearly"</text>
+
+  <!-- Key Innovation -->
+  <rect x="50" y="750" width="700" height="100" rx="8" fill="#9b59b6" opacity="0.1" stroke="#9b59b6" stroke-width="2"/>
+  <text x="400" y="775" text-anchor="middle" fill="#8e44ad" font-family="Arial, sans-serif" font-size="13" font-weight="bold">KEY INNOVATIONS</text>
+  <text x="70" y="800" fill="#333" font-family="Arial, sans-serif" font-size="11">• Tin foil as recording medium - can be removed, preserved, and replaced</text>
+  <text x="70" y="820" fill="#333" font-family="Arial, sans-serif" font-size="11">• Stereotyping possible - make plaster molds for mass reproduction</text>
+  <text x="70" y="840" fill="#333" font-family="Arial, sans-serif" font-size="11">• Multiple recording methods proposed: indentation, sinuous thread, ink marks</text>
+
+  <!-- Components List -->
+  <rect x="50" y="870" width="700" height="110" rx="8" fill="#8B4513" opacity="0.1" stroke="#8B4513" stroke-width="2"/>
+  <text x="400" y="895" text-anchor="middle" fill="#8B4513" font-family="Arial, sans-serif" font-size="13" font-weight="bold">COMPONENTS</text>
+  <text x="150" y="920" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="10">A - Recording cylinder</text>
+  <text x="150" y="940" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="10">B - Speaking tube</text>
+  <text x="150" y="960" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="10">C - Receiving tube</text>
+  <text x="400" y="920" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="10">G - Recording diaphragm</text>
+  <text x="400" y="940" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="10">F - Playback diaphragm</text>
+  <text x="400" y="960" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="10">D - Spring follower</text>
+  <text x="650" y="920" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="10">X - Threaded shaft</text>
+  <text x="650" y="940" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="10">M - Clockwork motor</text>
+  <text x="650" y="960" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="10">P - Bearing support</text>
+</svg>

@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1100">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a237e"/>
+      <stop offset="100%" style="stop-color:#3949ab"/>
+    </linearGradient>
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2196f3"/>
+      <stop offset="100%" style="stop-color:#00bcd4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="1100" fill="#f8f9fa"/>
+
+  <!-- Header -->
+  <rect width="800" height="80" fill="url(#headerGrad)"/>
+  <text x="400" y="35" text-anchor="middle" fill="white" font-family="Georgia, serif" font-size="22" font-weight="bold">U.S. PATENT No. 586,193</text>
+  <text x="400" y="60" text-anchor="middle" fill="#b3c5ff" font-family="Georgia, serif" font-size="15">TRANSMITTING ELECTRICAL SIGNALS — Guglielmo Marconi — July 13, 1897</text>
+
+  <!-- Title -->
+  <text x="400" y="115" text-anchor="middle" fill="#1a237e" font-family="Arial, sans-serif" font-size="20" font-weight="bold">Wireless Telegraphy Using Hertz Waves</text>
+
+  <!-- Key Innovation -->
+  <rect x="30" y="135" width="740" height="70" rx="10" fill="#3949ab" opacity="0.1" stroke="#3949ab" stroke-width="2"/>
+  <text x="400" y="160" text-anchor="middle" fill="#1a237e" font-family="Arial, sans-serif" font-size="13" font-weight="bold">THE BREAKTHROUGH</text>
+  <text x="400" y="185" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="11">"Electrical signals transmitted through the air, earth, or water by means of oscillations of high frequency" — No wires needed!</text>
+
+  <!-- System Overview -->
+  <rect x="30" y="220" width="740" height="280" rx="5" fill="white" stroke="#bdc3c7" stroke-width="1"/>
+  <text x="400" y="245" text-anchor="middle" fill="#1a237e" font-family="Arial, sans-serif" font-size="14" font-weight="bold">WIRELESS TRANSMISSION SYSTEM</text>
+
+  <!-- Transmitter Side -->
+  <rect x="50" y="260" width="280" height="220" rx="5" fill="#e3f2fd" stroke="#2196f3" stroke-width="1"/>
+  <text x="190" y="285" text-anchor="middle" fill="#1565c0" font-family="Arial, sans-serif" font-size="12" font-weight="bold">TRANSMITTING STATION</text>
+
+  <!-- Battery a -->
+  <rect x="70" y="310" width="40" height="25" fill="#ffc107" stroke="#333" stroke-width="1"/>
+  <text x="90" y="327" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="8">a</text>
+  <text x="90" y="350" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="8">Battery</text>
+
+  <!-- Morse Key b -->
+  <rect x="130" y="310" width="50" height="25" rx="3" fill="#795548" stroke="#333" stroke-width="1"/>
+  <text x="155" y="327" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="8">b</text>
+  <text x="155" y="350" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="8">Morse Key</text>
+
+  <!-- Ruhmkorff Coil c -->
+  <ellipse cx="240" cy="322" rx="35" ry="20" fill="#9c27b0" stroke="#333" stroke-width="1"/>
+  <text x="240" y="327" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="8">c</text>
+  <text x="240" y="360" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="8">Ruhmkorff Coil</text>
+
+  <!-- Oscillator d/e -->
+  <rect x="70" y="380" width="200" height="40" rx="5" fill="#ff9800" stroke="#333" stroke-width="1"/>
+  <circle cx="100" cy="400" r="12" fill="#ffc107" stroke="#333" stroke-width="1"/>
+  <text x="100" y="404" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="8">d</text>
+  <circle cx="170" cy="400" r="8" fill="#ffeb3b" stroke="#333" stroke-width="1"/>
+  <text x="170" y="404" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="7">e</text>
+  <circle cx="240" cy="400" r="12" fill="#ffc107" stroke="#333" stroke-width="1"/>
+  <text x="240" y="404" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="8">d</text>
+  <text x="170" y="440" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="8">Spark Gap Oscillator (in oil)</text>
+
+  <!-- Reflector f -->
+  <path d="M 280 270 Q 320 350 280 430" fill="none" stroke="#607d8b" stroke-width="3"/>
+  <text x="300" y="350" fill="#333" font-family="Arial, sans-serif" font-size="9">f</text>
+  <text x="305" y="365" fill="#333" font-family="Arial, sans-serif" font-size="7">Reflector</text>
+
+  <!-- Waves -->
+  <path d="M 330 350 Q 360 330 390 350 Q 420 370 450 350" fill="none" stroke="url(#waveGrad)" stroke-width="3" stroke-dasharray="5,3"/>
+  <text x="390" y="320" text-anchor="middle" fill="#00bcd4" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Hertz Waves</text>
+  <text x="390" y="390" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="8">(10 inch wavelength)</text>
+
+  <!-- Receiver Side -->
+  <rect x="470" y="260" width="280" height="220" rx="5" fill="#e8f5e9" stroke="#4caf50" stroke-width="1"/>
+  <text x="610" y="285" text-anchor="middle" fill="#2e7d32" font-family="Arial, sans-serif" font-size="12" font-weight="bold">RECEIVING STATION</text>
+
+  <!-- Reflector l -->
+  <path d="M 520 270 Q 480 350 520 430" fill="none" stroke="#607d8b" stroke-width="3"/>
+  <text x="495" y="350" fill="#333" font-family="Arial, sans-serif" font-size="9">l</text>
+
+  <!-- Tuned Plates k -->
+  <rect x="530" y="330" width="80" height="8" fill="#78909c" stroke="#333" stroke-width="1"/>
+  <text x="570" y="325" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="8">k - Tuned plates</text>
+
+  <!-- Coherer j -->
+  <rect x="550" y="360" width="40" height="15" fill="#e0e0e0" stroke="#333" stroke-width="1"/>
+  <rect x="558" y="363" width="24" height="9" fill="#9e9e9e"/>
+  <text x="570" y="395" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="8">j - Coherer tube</text>
+  <text x="570" y="408" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="7">(metallic powder)</text>
+
+  <!-- Battery g and relay n -->
+  <rect x="620" y="350" width="30" height="20" fill="#ffc107" stroke="#333" stroke-width="1"/>
+  <text x="635" y="364" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="7">g</text>
+  <rect x="660" y="350" width="40" height="20" rx="3" fill="#3f51b5" stroke="#333" stroke-width="1"/>
+  <text x="680" y="364" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="7">n</text>
+  <text x="665" y="385" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="7">Relay</text>
+
+  <!-- Trembler p -->
+  <rect x="620" y="420" width="60" height="25" rx="3" fill="#ff5722" stroke="#333" stroke-width="1"/>
+  <text x="650" y="437" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="8">p</text>
+  <text x="650" y="460" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="7">Trembler/Tapper</text>
+
+  <!-- Receiver h -->
+  <rect x="700" y="420" width="40" height="25" rx="3" fill="#4caf50" stroke="#333" stroke-width="1"/>
+  <text x="720" y="437" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="8">h</text>
+  <text x="720" y="460" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="7">Telegraph</text>
+
+  <!-- The Coherer - Key Component -->
+  <text x="400" y="530" text-anchor="middle" fill="#1a237e" font-family="Arial, sans-serif" font-size="14" font-weight="bold">THE COHERER - KEY TO DETECTION</text>
+
+  <rect x="100" y="545" width="600" height="140" rx="8" fill="white" stroke="#9c27b0" stroke-width="2"/>
+
+  <!-- Coherer detail -->
+  <rect x="250" y="570" width="300" height="50" rx="5" fill="#f3e5f5" stroke="#9c27b0" stroke-width="1"/>
+  <rect x="260" y="585" width="40" height="20" fill="#9e9e9e" stroke="#333" stroke-width="1"/>
+  <text x="280" y="598" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="8">j²</text>
+  <rect x="300" y="580" width="200" height="30" fill="#e0e0e0" stroke="#333" stroke-width="1"/>
+  <text x="400" y="600" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="10">Metallic powder (Ni + 10% Ag)</text>
+  <rect x="500" y="585" width="40" height="20" fill="#9e9e9e" stroke="#333" stroke-width="1"/>
+  <text x="520" y="598" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="8">j²</text>
+
+  <text x="120" y="580" fill="#333" font-family="Arial, sans-serif" font-size="10" font-weight="bold">How it works:</text>
+  <text x="120" y="600" fill="#333" font-family="Arial, sans-serif" font-size="9">• Normally high resistance</text>
+  <text x="120" y="620" fill="#333" font-family="Arial, sans-serif" font-size="9">• Hertz waves cause conduction</text>
+  <text x="120" y="640" fill="#333" font-family="Arial, sans-serif" font-size="9">• Current flows, activates relay</text>
+  <text x="120" y="660" fill="#333" font-family="Arial, sans-serif" font-size="9">• Trembler taps to reset</text>
+
+  <text x="580" y="640" fill="#333" font-family="Arial, sans-serif" font-size="9" font-weight="bold">Tube specs:</text>
+  <text x="580" y="658" fill="#333" font-family="Arial, sans-serif" font-size="8">1.5" long, 1/10" diameter</text>
+  <text x="580" y="673" fill="#333" font-family="Arial, sans-serif" font-size="8">Gap: 1/30" between plugs</text>
+
+  <!-- Transmission Methods -->
+  <text x="400" y="715" text-anchor="middle" fill="#1a237e" font-family="Arial, sans-serif" font-size="14" font-weight="bold">TRANSMISSION METHODS</text>
+
+  <rect x="50" y="730" width="220" height="100" rx="8" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+  <text x="160" y="755" text-anchor="middle" fill="#1565c0" font-family="Arial, sans-serif" font-size="11" font-weight="bold">THROUGH AIR</text>
+  <text x="60" y="775" fill="#333" font-family="Arial, sans-serif" font-size="9">• Parabolic reflectors focus beam</text>
+  <text x="60" y="795" fill="#333" font-family="Arial, sans-serif" font-size="9">• Directional transmission</text>
+  <text x="60" y="815" fill="#333" font-family="Arial, sans-serif" font-size="9">• Line of sight required</text>
+
+  <rect x="290" y="730" width="220" height="100" rx="8" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+  <text x="400" y="755" text-anchor="middle" fill="#e65100" font-family="Arial, sans-serif" font-size="11" font-weight="bold">THROUGH EARTH</text>
+  <text x="300" y="775" fill="#333" font-family="Arial, sans-serif" font-size="9">• One end grounded</text>
+  <text x="300" y="795" fill="#333" font-family="Arial, sans-serif" font-size="9">• Other end to elevated plate</text>
+  <text x="300" y="815" fill="#333" font-family="Arial, sans-serif" font-size="9">• Works through obstacles!</text>
+
+  <rect x="530" y="730" width="220" height="100" rx="8" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+  <text x="640" y="755" text-anchor="middle" fill="#2e7d32" font-family="Arial, sans-serif" font-size="11" font-weight="bold">LONG DISTANCE</text>
+  <text x="540" y="775" fill="#333" font-family="Arial, sans-serif" font-size="9">• Elevated antenna plates</text>
+  <text x="540" y="795" fill="#333" font-family="Arial, sans-serif" font-size="9">• Poles or balloons</text>
+  <text x="540" y="815" fill="#333" font-family="Arial, sans-serif" font-size="9">• Higher = farther range</text>
+
+  <!-- Key Components -->
+  <rect x="50" y="850" width="700" height="120" rx="8" fill="#1a237e" opacity="0.05" stroke="#1a237e" stroke-width="2"/>
+  <text x="400" y="875" text-anchor="middle" fill="#1a237e" font-family="Arial, sans-serif" font-size="12" font-weight="bold">KEY COMPONENTS</text>
+
+  <text x="130" y="900" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="9" font-weight="bold">Transmitter</text>
+  <text x="130" y="918" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="8">a - Battery</text>
+  <text x="130" y="933" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="8">b - Morse key</text>
+  <text x="130" y="948" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="8">c - Induction coil</text>
+  <text x="130" y="963" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="8">d,e - Spark gap</text>
+
+  <text x="300" y="900" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="9" font-weight="bold">Oscillator</text>
+  <text x="300" y="918" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="8">d - Large brass balls (4")</text>
+  <text x="300" y="933" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="8">e - Small spark balls</text>
+  <text x="300" y="948" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="8">d² - Ebonite tubes</text>
+  <text x="300" y="963" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="8">f - Parabolic reflector</text>
+
+  <text x="500" y="900" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="9" font-weight="bold">Receiver</text>
+  <text x="500" y="918" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="8">j - Coherer tube</text>
+  <text x="500" y="933" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="8">k - Tuned antenna plates</text>
+  <text x="500" y="948" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="8">k' - Choking coils</text>
+  <text x="500" y="963" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="8">l - Parabolic reflector</text>
+
+  <text x="670" y="900" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="9" font-weight="bold">Output</text>
+  <text x="670" y="918" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="8">n - Sensitive relay</text>
+  <text x="670" y="933" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="8">p - Trembler/tapper</text>
+  <text x="670" y="948" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="8">h - Telegraph receiver</text>
+  <text x="670" y="963" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="8">g - Local battery</text>
+
+  <!-- Historical Note -->
+  <rect x="50" y="990" width="700" height="50" rx="8" fill="#fff9c4" stroke="#ffc107" stroke-width="2"/>
+  <text x="400" y="1015" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="11" font-weight="bold">56 CLAIMS — Foundation of Modern Radio Communication</text>
+  <text x="400" y="1032" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="10">This patent established the principles used in all wireless communication systems</text>
+
+  <!-- Antenna illustration -->
+  <text x="400" y="1075" text-anchor="middle" fill="#1a237e" font-family="Arial, sans-serif" font-size="10">"The larger the plates and the higher from earth, the greater the distance"</text>
+</svg>

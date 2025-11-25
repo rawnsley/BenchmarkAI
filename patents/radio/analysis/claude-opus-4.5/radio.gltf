@@ -1,0 +1,244 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "Claude AI - Patent Analysis"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Marconi Wireless System",
+      "nodes": [0]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "WirelessSystem",
+      "children": [1, 2, 3, 4, 5, 6]
+    },
+    {
+      "name": "TransmitterBase",
+      "mesh": 0,
+      "translation": [-0.4, 0, 0]
+    },
+    {
+      "name": "TransmitterAntenna",
+      "mesh": 1,
+      "translation": [-0.4, 0.4, 0]
+    },
+    {
+      "name": "ReceiverBase",
+      "mesh": 0,
+      "translation": [0.4, 0, 0]
+    },
+    {
+      "name": "ReceiverAntenna",
+      "mesh": 1,
+      "translation": [0.4, 0.4, 0]
+    },
+    {
+      "name": "Coherer",
+      "mesh": 2,
+      "translation": [0.4, 0.1, 0.1]
+    },
+    {
+      "name": "InductionCoil",
+      "mesh": 3,
+      "translation": [-0.4, 0.1, 0.1]
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Base",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 2,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Antenna",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 3,
+            "NORMAL": 4
+          },
+          "indices": 5,
+          "material": 1
+        }
+      ]
+    },
+    {
+      "name": "Coherer",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6,
+            "NORMAL": 7
+          },
+          "indices": 8,
+          "material": 2
+        }
+      ]
+    },
+    {
+      "name": "InductionCoil",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 9,
+            "NORMAL": 10
+          },
+          "indices": 11,
+          "material": 1
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "min": [-0.15, -0.03, -0.1],
+      "max": [0.15, 0.03, 0.1]
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 288,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 36,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 576,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "min": [-0.01, -0.35, -0.01],
+      "max": [0.01, 0.35, 0.01]
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 864,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 72,
+      "componentType": 5123,
+      "count": 36,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1152,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "min": [-0.06, -0.015, -0.015],
+      "max": [0.06, 0.015, 0.015]
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1440,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 144,
+      "componentType": 5123,
+      "count": 36,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1728,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "min": [-0.04, -0.06, -0.04],
+      "max": [0.04, 0.06, 0.04]
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 2016,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 216,
+      "componentType": 5123,
+      "count": 36,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 2304,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2304,
+      "byteLength": 288,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "data:application/octet-stream;base64,AAAgvgAAHL0AAMi9AAAgvgAAHL0AAMQ9AAAgvgAAHD0AAMQ9AAAgvgAAHD0AAMi9AAAgvgAAHL0AAMi9AAAgvgAAHD0AAMi9AAAgPgAAHL0AAMi9AAAgPgAAHD0AAMi9AAAgvgAAHL0AAMi9AAAgPgAAHL0AAMi9AAAgvgAAHL0AAMQ9AAAgvgAAHL0AAMi9AAAgvgAAHL0AAMQ9AAAgPgAAHL0AAMQ9AAAgPgAAHL0AAMi9AAAgPgAAHL0AAMQ9AAAgvgAAHD0AAMQ9AAAgPgAAHD0AAMQ9AAAgvgAAHL0AAMQ9AAAgvgAAHD0AAMQ9AAAgPgAAHL0AAMQ9AAAgPgAAHD0AAMQ9AAAgvgAAHD0AAMi9AAAgvgAAHD0AAMQ9AAAgPgAAHD0AAMQ9AAAgPgAAHD0AAMi9AAAgvgAAHD0AAMi9AAAgPgAAHD0AAMQ9AAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAACamZm8AACzvgAAmpm5vACamZm8AACzvgAAmpm5PACamZm8AACzPgAAmpm5PACamZm8AACzPgAAmpm5vACamZm8AACzvgAAmpm5vACamZm8AACzPgAAmpm5vACamZk8AACzvgAAmpm5vACamZk8AACzPgAAmpm5vACamZm8AACzvgAAmpm5vACamZk8AACzvgAAmpm5vACamZm8AACzvgAAmpm5PACamZm8AACzvgAAmpm5vACamZm8AACzvgAAmpm5PACamZk8AACzvgAAmpm5PACamZk8AACzvgAAmpm5vACamZk8AACzvgAAmpm5PACamZm8AACzPgAAmpm5PACamZk8AACzPgAAmpm5PACamZm8AACzvgAAmpm5PACamZm8AACzPgAAmpm5PACamZk8AACzvgAAmpm5PACamZk8AACzPgAAmpm5PACamZm8AACzPgAAmpm5vACamZm8AACzPgAAmpm5PACamZk8AACzPgAAmpm5PACamZk8AACzPgAAmpm5vACamZm8AACzPgAAmpm5vACamZk8AACzPgAAmpm5PAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAB2di69AAC2vQAAtr0Adna9AAC2vQAAtj0Adna9AAC2PQAAtj0Adna9AAC2PQAAtr0Adna9AAC2vQAAtr0Adna9AAC2PQAAtr0Adna9AAC2vQAAtr0Adna9AAC2PQAAtr0Adna9AAC2vQAAtr0Adna9AAC2vQAAtr0Adna9AAC2vQAAtj0Adna9AAC2vQAAtr0Adna9AAC2vQAAtj0Adna9AAC2vQAAtj0Adna9AAC2vQAAtr0Adna9AAC2vQAAtj0Adna9AAC2PQAAtj0Adna9AAC2PQAAtj0Adna9AAC2vQAAtj0Adna9AAC2PQAAtj0Adna9AAC2vQAAtj0Adna9AAC2PQAAtj0Adna9AAC2PQAAtr0Adna9AAC2PQAAtj0Adna9AAC2PQAAtj0Adna9AAC2PQAAtr0Adna9AAC2PQAAtr0Adna9AAC2PQAAtj0AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAACamRm9AAB2vgAAdj4AAJqZGb0AAHa+AAB2vgAAmpmZvAAAdr4AAHa+AACamRm9AAB2vgAAdj4AAJqZmbwAAHa+AAB2vgAAmpmZvAAAdr4AAHa+AACamRk9AAB2vgAAdj4AAJqZGT0AAHa+AAB2vgAAmpmZvAAAdr4AAHa+AACamRk9AAB2vgAAdj4AAJqZGT0AAHa+AAB2vgAAmpmZPAAAdr4AAHa+AACamRk9AAB2vgAAdj4AAJqZGT0AAHa+AAB2PgAAmpmZPAAAdr4AAHa+AACamRm9AAB2vgAAdr4AAJqZGT0AAHa+AAB2PgAAmpmZPAAAdr4AAHa+AACamRm9AAB2PgAAdr4AAJqZGT0AAHa+AAB2PgAAmpmZPAAAdj4AAHa+AACamRm9AAB2PgAAdr4AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAABAAIAAgADAAEABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQAAQACABgAGAAZAAEAGgAbABwAHAAdABoAHgAfACAAIAAhAB4AIgAjACQAJAAlACIAJgAnACgAKAApACYAKgArACwALAAtACoALgAvADAAMAAxAC4AMgAzADQANAA1ADIANgA3ADgAOAA5ADYAOgA7ADwAPAA9ADoAPgA/AEAAQABBAD4AQgBDAEQARABFAEIARgBHAEgASABJAEYASgBLAEwATABNAEoATgBPAFAAUABRAE4AUgBTAFQAVABVAFIAVgBXAFgAWABZAFYA",
+      "byteLength": 2592
+    }
+  ],
+  "materials": [
+    {
+      "name": "Wood",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [0.45, 0.3, 0.15, 1.0],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.8
+      }
+    },
+    {
+      "name": "Copper",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [0.72, 0.45, 0.2, 1.0],
+        "metallicFactor": 0.9,
+        "roughnessFactor": 0.3
+      }
+    },
+    {
+      "name": "Glass",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [0.9, 0.9, 0.95, 0.7],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.1
+      },
+      "alphaMode": "BLEND"
+    }
+  ]
+}

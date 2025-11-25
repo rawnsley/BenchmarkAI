@@ -1,0 +1,267 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1100">
+  <defs>
+    <pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
+      <path d="M 10 0 L 0 0 0 10" fill="none" stroke="#e0e0e0" stroke-width="0.5"/>
+    </pattern>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="1100" fill="#fff"/>
+  <rect width="800" height="1100" fill="url(#grid)"/>
+
+  <!-- Title Block -->
+  <rect x="500" y="1020" width="290" height="70" fill="none" stroke="#333" stroke-width="2"/>
+  <line x1="500" y1="1045" x2="790" y2="1045" stroke="#333" stroke-width="1"/>
+  <line x1="500" y1="1070" x2="790" y2="1070" stroke="#333" stroke-width="1"/>
+  <line x1="620" y1="1020" x2="620" y2="1090" stroke="#333" stroke-width="1"/>
+  <text x="560" y="1038" text-anchor="middle" font-family="Arial" font-size="10">PATENT NO.</text>
+  <text x="705" y="1038" text-anchor="middle" font-family="Arial" font-size="10">US 2,032,695</text>
+  <text x="560" y="1062" text-anchor="middle" font-family="Arial" font-size="10">DATE</text>
+  <text x="705" y="1062" text-anchor="middle" font-family="Arial" font-size="10">Mar 3, 1936</text>
+  <text x="645" y="1085" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">POCKET LIGHTER - GIMERA/BLAISDELL</text>
+
+  <!-- Border -->
+  <rect x="10" y="10" width="780" height="1080" fill="none" stroke="#333" stroke-width="2"/>
+
+  <!-- Main Title -->
+  <text x="400" y="45" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold">POCKET LIGHTER (ZIPPO)</text>
+  <text x="400" y="65" text-anchor="middle" font-family="Arial" font-size="12">Engineering Drawings - Assembly and Details</text>
+
+  <!-- FRONT ELEVATION - CLOSED -->
+  <text x="150" y="100" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">FRONT VIEW (CLOSED)</text>
+
+  <rect x="50" y="115" width="200" height="250" fill="none" stroke="#333" stroke-width="1"/>
+
+  <!-- Outer case 2 -->
+  <rect x="90" y="140" width="120" height="200" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+
+  <!-- Hinge 19 -->
+  <circle cx="150" cy="150" r="8" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="150" cy="150" r="3" fill="#333"/>
+  <text x="170" y="155" font-family="Arial" font-size="9">19</text>
+
+  <!-- Cover 18 line -->
+  <line x1="95" y1="200" x2="205" y2="200" stroke="#333" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="220" y="175" font-family="Arial" font-size="9">18 - Cover</text>
+  <line x1="205" y1="175" x2="195" y2="185" stroke="#333" stroke-width="0.5"/>
+
+  <!-- Outer member label -->
+  <text x="220" y="270" font-family="Arial" font-size="9">2 - Outer</text>
+  <line x1="205" y1="270" x2="195" y2="270" stroke="#333" stroke-width="0.5"/>
+
+  <!-- Dimension lines -->
+  <line x1="80" y1="140" x2="80" y2="340" stroke="#333" stroke-width="0.5"/>
+  <line x1="75" y1="140" x2="85" y2="140" stroke="#333" stroke-width="0.5"/>
+  <line x1="75" y1="340" x2="85" y2="340" stroke="#333" stroke-width="0.5"/>
+  <text x="70" y="245" text-anchor="middle" font-family="Arial" font-size="8" transform="rotate(-90 70 245)">2.25"</text>
+
+  <line x1="90" y1="350" x2="210" y2="350" stroke="#333" stroke-width="0.5"/>
+  <line x1="90" y1="345" x2="90" y2="355" stroke="#333" stroke-width="0.5"/>
+  <line x1="210" y1="345" x2="210" y2="355" stroke="#333" stroke-width="0.5"/>
+  <text x="150" y="365" text-anchor="middle" font-family="Arial" font-size="8">1.5"</text>
+
+  <!-- SIDE ELEVATION - CLOSED -->
+  <text x="400" y="100" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">SIDE VIEW (CLOSED)</text>
+
+  <rect x="300" y="115" width="200" height="250" fill="none" stroke="#333" stroke-width="1"/>
+
+  <!-- Side profile -->
+  <rect x="370" y="140" width="60" height="200" rx="3" fill="none" stroke="#333" stroke-width="2"/>
+
+  <!-- Hinge visible from side -->
+  <ellipse cx="400" cy="150" rx="15" ry="5" fill="none" stroke="#333" stroke-width="2"/>
+  <text x="430" y="155" font-family="Arial" font-size="9">19</text>
+
+  <!-- Cover line -->
+  <line x1="375" y1="200" x2="425" y2="200" stroke="#333" stroke-width="1" stroke-dasharray="3,2"/>
+
+  <!-- Depth dimension -->
+  <line x1="370" y1="350" x2="430" y2="350" stroke="#333" stroke-width="0.5"/>
+  <line x1="370" y1="345" x2="370" y2="355" stroke="#333" stroke-width="0.5"/>
+  <line x1="430" y1="345" x2="430" y2="355" stroke="#333" stroke-width="0.5"/>
+  <text x="400" y="365" text-anchor="middle" font-family="Arial" font-size="8">0.5"</text>
+
+  <!-- TOP VIEW - CLOSED -->
+  <text x="650" y="100" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">TOP VIEW (CLOSED)</text>
+
+  <rect x="550" y="115" width="200" height="120" fill="none" stroke="#333" stroke-width="1"/>
+
+  <!-- Top profile -->
+  <rect x="590" y="140" width="120" height="60" rx="3" fill="none" stroke="#333" stroke-width="2"/>
+
+  <!-- Hinge visible from top -->
+  <rect x="640" y="130" width="20" height="80" fill="none" stroke="#333" stroke-width="1"/>
+  <text x="650" y="225" text-anchor="middle" font-family="Arial" font-size="9">Hinge 19</text>
+
+  <!-- SECTIONAL VIEW - OPEN -->
+  <text x="200" y="400" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">SECTION A-A (OPEN)</text>
+
+  <rect x="50" y="415" width="300" height="300" fill="none" stroke="#333" stroke-width="1"/>
+
+  <!-- Outer member 2 -->
+  <rect x="100" y="480" width="100" height="180" rx="3" fill="none" stroke="#333" stroke-width="2"/>
+  <text x="85" y="570" font-family="Arial" font-size="9">2</text>
+
+  <!-- Inner member 1 -->
+  <rect x="110" y="490" width="80" height="160" rx="2" fill="none" stroke="#333" stroke-width="1.5"/>
+  <text x="95" y="520" font-family="Arial" font-size="9">1</text>
+
+  <!-- Fuel reservoir (inside inner member) -->
+  <rect x="120" y="540" width="60" height="100" fill="none" stroke="#333" stroke-width="0.5" stroke-dasharray="3,2"/>
+  <text x="150" y="590" text-anchor="middle" font-family="Arial" font-size="7">Fuel</text>
+  <text x="150" y="600" text-anchor="middle" font-family="Arial" font-size="7">reservoir</text>
+
+  <!-- Top plate 3 -->
+  <rect x="105" y="480" width="90" height="15" fill="none" stroke="#333" stroke-width="1.5"/>
+  <text x="170" y="455" font-family="Arial" font-size="9">3 - Top plate</text>
+  <line x1="150" y1="460" x2="150" y2="480" stroke="#333" stroke-width="0.5"/>
+
+  <!-- Wind screen 4 -->
+  <path d="M 120 440 Q 150 420 180 440 L 180 480 L 120 480 Z" fill="none" stroke="#333" stroke-width="1.5"/>
+  <text x="150" y="465" text-anchor="middle" font-family="Arial" font-size="8">4</text>
+  <text x="210" y="440" font-family="Arial" font-size="9">4 - Wind screen</text>
+
+  <!-- Draft holes 6 -->
+  <circle cx="130" cy="455" r="3" fill="none" stroke="#333" stroke-width="1"/>
+  <circle cx="150" cy="450" r="3" fill="none" stroke="#333" stroke-width="1"/>
+  <circle cx="170" cy="455" r="3" fill="none" stroke="#333" stroke-width="1"/>
+  <text x="195" y="455" font-family="Arial" font-size="8">6</text>
+
+  <!-- Toothed wheel 9 -->
+  <circle cx="135" cy="495" r="8" fill="none" stroke="#333" stroke-width="1.5"/>
+  <!-- Teeth indication -->
+  <circle cx="135" cy="495" r="10" fill="none" stroke="#333" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <text x="135" y="498" text-anchor="middle" font-family="Arial" font-size="7">9</text>
+
+  <!-- Flint tube 10 -->
+  <rect x="140" y="495" width="8" height="40" fill="none" stroke="#333" stroke-width="1"/>
+  <text x="165" y="515" font-family="Arial" font-size="8">10</text>
+
+  <!-- Flint 11 -->
+  <rect x="142" y="498" width="4" height="15" fill="#888"/>
+  <text x="165" y="508" font-family="Arial" font-size="8">11</text>
+
+  <!-- Spring 12 -->
+  <path d="M 144 515 L 144 530 M 142 518 L 146 518 M 142 522 L 146 522 M 142 526 L 146 526" stroke="#333" stroke-width="1"/>
+  <text x="165" y="525" font-family="Arial" font-size="8">12</text>
+
+  <!-- Wick 16 -->
+  <rect x="158" y="460" width="4" height="80" fill="none" stroke="#333" stroke-width="1"/>
+  <text x="175" y="500" font-family="Arial" font-size="8">16</text>
+
+  <!-- Hinge 19 -->
+  <circle cx="200" cy="480" r="6" fill="none" stroke="#333" stroke-width="1.5"/>
+  <text x="215" y="480" font-family="Arial" font-size="8">19</text>
+
+  <!-- Cover 18 (open position) -->
+  <path d="M 206 480 L 260 430 L 300 430 L 300 480 L 260 480 Z" fill="none" stroke="#333" stroke-width="1.5"/>
+  <text x="280" y="455" text-anchor="middle" font-family="Arial" font-size="9">18</text>
+
+  <!-- Lever 21 -->
+  <line x1="200" y1="475" x2="200" y2="430" stroke="#333" stroke-width="3"/>
+  <text x="215" y="445" font-family="Arial" font-size="8">21</text>
+
+  <!-- Cross member 27 -->
+  <line x1="258" y1="470" x2="258" y2="440" stroke="#333" stroke-width="2"/>
+  <text x="245" y="465" font-family="Arial" font-size="8">27</text>
+
+  <!-- Plunger 23 -->
+  <rect x="195" y="500" width="10" height="15" fill="none" stroke="#333" stroke-width="1"/>
+  <text x="215" y="510" font-family="Arial" font-size="8">23</text>
+
+  <!-- Spring 24 (for plunger) -->
+  <path d="M 200 515 L 200 530 M 197 518 L 203 518 M 197 522 L 203 522 M 197 526 L 203 526" stroke="#333" stroke-width="1"/>
+  <text x="215" y="525" font-family="Arial" font-size="8">24</text>
+
+  <!-- LATCH MECHANISM DETAIL -->
+  <text x="575" y="280" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">LATCH MECHANISM</text>
+  <text x="575" y="295" text-anchor="middle" font-family="Arial" font-size="10">(Detail View)</text>
+
+  <rect x="450" y="305" width="250" height="200" fill="none" stroke="#333" stroke-width="1"/>
+
+  <!-- Hinge pin 19 -->
+  <circle cx="500" cy="400" r="10" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="500" cy="400" r="4" fill="#333"/>
+  <text x="475" y="405" font-family="Arial" font-size="9">19</text>
+
+  <!-- Lever 21 pivoting on hinge -->
+  <rect x="495" y="340" width="10" height="60" fill="none" stroke="#333" stroke-width="2"/>
+  <text x="520" y="370" font-family="Arial" font-size="9">21 - Lever</text>
+
+  <!-- Toe portion 22 -->
+  <rect x="480" y="380" width="20" height="10" fill="none" stroke="#333" stroke-width="1.5"/>
+  <text x="460" y="388" font-family="Arial" font-size="8">22</text>
+
+  <!-- Plunger 23 and spring 24 -->
+  <rect x="485" y="420" width="15" height="25" fill="none" stroke="#333" stroke-width="1.5"/>
+  <text x="515" y="435" font-family="Arial" font-size="9">23</text>
+  <path d="M 492 445 L 492 475 M 488 455 L 496 455 M 488 465 L 496 465" stroke="#333" stroke-width="1"/>
+  <text x="515" y="465" font-family="Arial" font-size="9">24</text>
+
+  <!-- Cover rear wall 26 -->
+  <line x1="540" y1="350" x2="600" y2="350" stroke="#333" stroke-width="2"/>
+  <line x1="600" y1="350" x2="600" y2="410" stroke="#333" stroke-width="2"/>
+  <text x="620" y="380" font-family="Arial" font-size="9">26</text>
+
+  <!-- Cross member 27 on cover -->
+  <rect x="580" y="395" width="8" height="25" fill="none" stroke="#333" stroke-width="1.5"/>
+  <text x="600" y="410" font-family="Arial" font-size="9">27</text>
+
+  <!-- Cover 18 -->
+  <text x="570" y="340" font-family="Arial" font-size="9">18 - Cover</text>
+
+  <!-- Action arrows -->
+  <path d="M 530 360 C 560 360 560 380 530 380" fill="none" stroke="#666" stroke-width="1" marker-end="url(#arrowhead)"/>
+  <text x="575" y="375" font-family="Arial" font-size="7">Opening</text>
+  <text x="575" y="385" font-family="Arial" font-size="7">motion</text>
+
+  <!-- EXPLODED VIEW -->
+  <text x="575" y="535" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">EXPLODED VIEW</text>
+
+  <rect x="450" y="550" width="250" height="200" fill="none" stroke="#333" stroke-width="1"/>
+
+  <!-- Cover 18 -->
+  <rect x="600" y="570" width="60" height="40" rx="3" fill="none" stroke="#333" stroke-width="1.5"/>
+  <text x="630" y="595" text-anchor="middle" font-family="Arial" font-size="8">18</text>
+
+  <!-- Inner member 1 -->
+  <rect x="530" y="620" width="50" height="80" rx="2" fill="none" stroke="#333" stroke-width="1.5"/>
+  <text x="555" y="665" text-anchor="middle" font-family="Arial" font-size="8">1</text>
+
+  <!-- Outer member 2 -->
+  <rect x="470" y="650" width="55" height="90" rx="3" fill="none" stroke="#333" stroke-width="1.5"/>
+  <text x="497" y="700" text-anchor="middle" font-family="Arial" font-size="8">2</text>
+
+  <!-- Assembly lines -->
+  <line x1="555" y1="620" x2="555" y2="590" stroke="#666" stroke-width="0.5" stroke-dasharray="3,2"/>
+  <line x1="555" y1="590" x2="600" y2="590" stroke="#666" stroke-width="0.5" stroke-dasharray="3,2"/>
+  <line x1="525" y1="660" x2="495" y2="660" stroke="#666" stroke-width="0.5" stroke-dasharray="3,2"/>
+
+  <!-- Labels -->
+  <text x="650" y="620" font-family="Arial" font-size="8">Cover slides</text>
+  <text x="650" y="630" font-family="Arial" font-size="8">into outer</text>
+  <text x="475" y="625" font-family="Arial" font-size="8">Inner</text>
+  <text x="475" y="635" font-family="Arial" font-size="8">telescopes</text>
+  <text x="475" y="645" font-family="Arial" font-size="8">into outer</text>
+
+  <!-- NOTES -->
+  <rect x="50" y="740" width="700" height="260" fill="none" stroke="#333" stroke-width="1"/>
+  <text x="400" y="765" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">NOTES</text>
+
+  <text x="70" y="795" font-family="Arial" font-size="10">1. Inner member 1 telescopes into outer member 2 for easy fuel access</text>
+  <text x="70" y="815" font-family="Arial" font-size="10">2. Cover 18 hinged at 19 - only external projection when closed</text>
+  <text x="70" y="835" font-family="Arial" font-size="10">3. Lever 21 acts as both latch and open-hold mechanism</text>
+  <text x="70" y="855" font-family="Arial" font-size="10">4. Toe portion 22 engages plunger 23 during cover operation</text>
+  <text x="70" y="875" font-family="Arial" font-size="10">5. Spring 24 biases plunger upward to hold cover closed</text>
+  <text x="70" y="895" font-family="Arial" font-size="10">6. Cross member 27 on cover interacts with lever 21</text>
+  <text x="70" y="915" font-family="Arial" font-size="10">7. Wind screen 4 with draft holes 6 protects flame</text>
+  <text x="70" y="935" font-family="Arial" font-size="10">8. Toothed wheel 9 strikes sparks from flint 11</text>
+  <text x="70" y="955" font-family="Arial" font-size="10">9. Spring 12 keeps flint pressed against wheel</text>
+  <text x="70" y="975" font-family="Arial" font-size="10">10. Material: Sheet metal construction throughout</text>
+
+  <!-- Scale -->
+  <text x="100" y="995" font-family="Arial" font-size="10">SCALE: Approximate 2:1</text>
+</svg>
