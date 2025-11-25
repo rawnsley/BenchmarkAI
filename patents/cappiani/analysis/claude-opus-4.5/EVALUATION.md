@@ -68,7 +68,7 @@ This evaluation assesses how accurately the AI-generated artefacts represent the
 
 ---
 
-## 3. 3D Model (GLB) Evaluation
+## 3. 3D Model (glTF) Evaluation
 
 ### Accuracy Score: 6/10
 
@@ -76,7 +76,7 @@ This evaluation assesses how accurately the AI-generated artefacts represent the
 - Correct component hierarchy (case body, bottom, inner lid, outer cover, handle, ribbon)
 - Appropriate material assignments (alligator-skin appearance, brass handle, silk ribbon)
 - Components positioned to show case in "open" configuration
-- Valid glTF 2.0 binary format (GLB)
+- Valid glTF 2.0 format
 
 **Weaknesses:**
 - **Geometry is simplified boxes** - lacks the detailed profiles from patent drawings
